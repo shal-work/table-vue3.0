@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <title><%= htmlWebpackPlugin.options.title %></title>
+  </head>
+  <body>
+    <noscript>
+      <strong>We're sorry but <%= htmlWebpackPlugin.options.title %> doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
+    </noscript>
+    <div class="conteiner">
+      <h1>Задание</h1>
+      <ul>
+        <p> Нужно разработать таблицу в формате Single Page Application.</p>
+        <p> Требования к таблице:</p>
+        <ol>
+          <li>Таблица должна содержать 4 колонки: a)	Дата,  b)	Название, c)	Количество, d)	Расстояние.</li>
+          <li>База данных любая. Данные должны приходить в таблицу отсортированные по  возрастанию даты.</li>
+          <li>Таблица должна иметь выбор сортировки по всем полям кроме даты:</li>
+          <p>a)	Выбор колонки, по которой будет фильтрация </p>
+          <p>b)	Выбор условия (равно, содержать, больше, меньше)</p>  
+          <p>c)	Поле для ввода значения для фильтрации</p> 
+          <li>Фильтрация должна быть в виде двух выпадающих списков и текстового поля.</li>
+          <li>Вся таблица должна работать без перезагрузки страницы.</li>
+          <li>Реализация на Vue3.0</li>
+        </ol>
+      </ul>
+    </div>
+    <div id="app"></div>
+    <!-- built files will be auto injected -->
+  </body>
+</html>
